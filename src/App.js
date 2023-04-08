@@ -17,7 +17,9 @@ function App() {
       
       <Routes basename={process.env.PUBLIC_URL} >
 
-        <Route path='/' element={ <Home /> }/>
+        <Route exact path='/' element={ <Home /> }>
+          <Route path='/kasa' element={ <Home /> } />
+        </Route>
         <Route path='/logement/:id' element={ <AppPage /> }/>
         <Route path='/about' element={ <Apropo /> }/>
         <Route path='*' element={ <NotFound /> }/>
