@@ -1,0 +1,18 @@
+.img-banner{
+    height: 224px;
+    width: 100%;
+}
+.about-box{
+    max-width: 1024px;
+    margin: 30px auto;
+}
+@media screen and (max-width: 1024px) {
+    .about-box{
+        width: 90%;       
+    }
+}
+@media screen and (max-width: 768px) {
+    .about-box{
+        width: 100%;       
+    }
+}

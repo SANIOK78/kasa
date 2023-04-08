@@ -1,0 +1,60 @@
+.app-card{
+    width: 340px;
+    height: 340px;
+    /* background: linear-gradient(
+        to bottom, #ff6060, #b9113e
+    ); */
+    border-radius: 14px;
+    position: relative;
+}
+.app-card:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    box-shadow: 0 0px 4px #ff6060;
+}
+.app-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    filter: brightness(0.8);
+}
+.app-title{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.app-title h1{
+    font-size: 22px;
+    padding: 12px 16px;
+    margin:0;
+    color: #fff;
+} 
+
+@media screen and (max-width: 976px){
+    .app-card{
+        width: 300px;
+        height: 300px;
+    }
+    .app-title h1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .app-card{
+        width: 46%;
+        height: 280px;
+    }
+}
+
+@media screen  and (max-width: 500px){
+    .app-card{
+        width: 100%;
+        /* height: 260px; */
+    }
+    .app-title h1{
+        font-size: 18px;
+        padding: 10px 16px;
+    }
+}

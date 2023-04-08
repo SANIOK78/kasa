@@ -1,0 +1,24 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1440px;
+  background: #fff;
+  margin: 0px auto;
+}
+
+.container{
+  max-width: 1240px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+@media screen  and (max-width: 500px){
+  body{
+    padding: 18px;
+  }
+}

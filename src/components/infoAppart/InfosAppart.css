@@ -1,0 +1,161 @@
+.infos {
+    display: flex; 
+    justify-content: space-between; 
+    margin: 20px 0;
+}
+.info-titre{
+    width: 78%;
+}
+.titre-app{
+    color: #ff6060;
+    font-size: 36px;  
+}
+.local-app{
+    color: #ff6060;
+    font-size: 20px; 
+    margin: 12px 0;   
+}
+.tags-app {    
+    display: flex;
+    flex-wrap: wrap;
+}
+.tag{
+    background-color: #ff6060;
+    border-radius: 10px;    
+    width: 160px;
+    padding: 8px;
+    margin-right: 12px;  
+}
+.tag h5{
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+.info-rating{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+.rating-client{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.rating-client h4{
+    text-align: right;
+    color: #ff6060;
+    font-size: 20px;   
+}
+.rating-client img{
+    width: 64px;
+    height: 64px;
+    margin: 0 10px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.rating{
+    width: 100%;
+    margin-bottom: 16px; 
+    display: flex;
+    justify-content: space-between;
+}
+.fas.fa-star{
+    font-size: 30px;
+    color: #e3e3e3;
+}
+.fas.fa-star.red{
+    font-size: 30px;
+    color: #ff6060; 
+} 
+
+@media screen and (max-width: 976px) {
+    .info-titre{
+        width: 76%;
+    }
+    .titre-app{       
+        font-size: 30px;
+    }
+    .local-app{
+        font-size: 20px; 
+    }
+    .tag{
+        margin-top: 8px;
+    }
+    .info-rating{
+        width: 20%;       
+    }
+}
+@media screen and (max-width: 768px) {
+    .infos{
+        flex-direction: column;
+    }
+    .info-titre{
+        width: 100%;       
+    }
+    .info-rating{
+        width: 100%;
+        height: 80px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;        
+    }
+    .tag{
+        width: 120px; 
+    }
+    .tag h5{
+        font-size: 12px;
+    }
+    .rating-client{
+        width: 180px;
+        margin: 18px 0;
+    }
+    .rating-client h4{
+        font-size: 18px;   
+    }
+    .rating{
+        width: 180px;
+        margin: 0;
+        align-items: center;
+    }      
+}
+@media screen and (max-width: 500px) {
+    .titre-app{       
+        font-size: 18px;
+    }
+    .local-app{
+        font-size: 14px; 
+    }
+    .tag{
+        width: 86px;
+        margin-right:8px;
+    }
+    .tag h5{
+        font-size: 10px;
+    }
+    .rating-client{
+        width: 120px;
+        margin: 12px 0;
+    }
+    .info-rating{
+        height: 50px;
+    }
+    .rating-client h4{
+        font-size: 14px;
+        margin-right: 6px;   
+    }
+    .rating-client img{
+        width: 36px;
+        height: 36px;
+        margin: 0px 5px;
+    }
+    .rating{
+        width: 30%;
+    }
+    .fas.fa-star{
+        font-size: 16px;
+    }
+    .fas.fa-star.red{
+        font-size: 16px;
+    }  
+}

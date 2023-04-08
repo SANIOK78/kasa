@@ -1,0 +1,15 @@
+.banner{
+    height: 100%;
+    width: 100%;
+    border-radius: 18px;
+}
+.banner img {
+    height: 100%;
+    width: 100%;
+    border-radius: 18px;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+
+
